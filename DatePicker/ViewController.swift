@@ -67,6 +67,7 @@ class ViewController: UIViewController {
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .short
         dateFormatter.timeStyle = .none
+        dateFormatter.dateFormat = "YYYY-MM-dd"
         
         if whichButton == "First Button"
         {
